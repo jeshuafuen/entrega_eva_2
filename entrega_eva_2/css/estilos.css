@@ -1,0 +1,51 @@
+body{
+    background-color: grey !important;
+}
+
+#navegador{
+    background-color: rgb(186, 184, 184) !important;
+}
+
+#Quiénes_somos{
+    padding: 20px;
+}
+
+#subtitulo_productos{
+    margin-left: 880px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 5px auto;
+    padding: 5px;
+    max-width: 1200px;
+} 
+
+.card {
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#carrusel{
+    padding: 50px 0;
+    margin: 0 auto; 
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+#comentarios{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
